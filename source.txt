@@ -1,0 +1,620 @@
+
+<HTML>
+<HEAD>
+<TITLE>NTU StudentLINK - Student Automated Registration System</TITLE>
+<link rel="stylesheet" type="text/css" href="/graphics/css/gui3.css" media = "screen">
+<link rel="stylesheet" type="text/css" href="/graphics/css/print.css" media="print">
+
+    <SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    function StartNewWin(page) {
+    OpenWin = this.open(page, "CtrlWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes");
+    }
+    // End -->
+    </SCRIPT>
+  
+</HEAD>
+<BODY onLoad="window.focus()" topmargin="0">
+<div id="ui_staff_header_container">
+<div id="ui_header_title_container">
+<div id="ui_print_img">
+<img id="ntubwlogo" src="/graphics/css/NTU_BW_LOGO_150DPI.gif" width="160px" alt="" border="0" />
+</div>
+<p id="ui_header_title1">Student Automated Registration System</p>
+<p id="ui_header_title2">Check/Print Courses Registered for 2015-2016 Semester 1</p>
+</div>
+</div>
+<div id="ui_nav_container">
+<div id="ui_nav_innercontainer">
+<p id="ui_nav_left"></p>
+<p id="ui_nav_right">
+<a class="navline" href="javascript:history.back()" onmouseover="window.status='Previous page'; return true;" onmouseout="window.status='';return true;" >Back</a>
+&nbsp;
+ | 
+<a class="navline" href="javascript:self.close()" onmouseover="window.status='Exit and close window'; return true;" onmouseout="window.status='';return true;"  >Close</a>
+</p></div >
+</div>
+<div id="ui_body_container">
+Name 
+<HR size="2">
+<TABLE  border>
+<TR>
+<TD valign="BOTTOM"><B>Course</B></TD>
+<TD valign="BOTTOM"><B>Title</B></TD>
+<TD valign="BOTTOM"><B>AU</B></TD>
+<TD valign="BOTTOM"><B>Course<BR>Type</B></TD>
+<TD valign="BOTTOM"><B>S/U Grade option</B></TD>
+<TD valign="BOTTOM"><B>GER<BR>Type</B></TD>
+<TD valign="BOTTOM"><B>Index<BR>Number</B></TD>
+<TD valign="BOTTOM"><B>Status</B></TD>
+<TD valign="BOTTOM"><B>Choice</B></TD>
+<TD valign="BOTTOM"><B>Class<BR>Type</B></TD>
+<TD valign="BOTTOM"><B>Group</B></TD>
+<TD valign="BOTTOM"><B>Day</B></TD>
+<TD valign="BOTTOM"><B>Time</B></TD>
+<TD valign="BOTTOM"><B>Venue</B></TD>
+<TD valign="BOTTOM"><B>Remark</B></TD>
+</TR>
+<TR>
+<TD>
+CZ4016
+</TD>
+<TD>
+ADVANCED TOPICS IN ALGORITHMS
+</TD>
+<TD>
+3
+</TD>
+<TD>
+PRESCRIBED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+10425
+</TD>
+<TD>
+REGISTERED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+TUT
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+TH
+</TD>
+<TD>
+1230-1330
+</TD>
+<TD>
+LT8
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+TH
+</TD>
+<TD>
+1130-1230
+</TD>
+<TD>
+LT8
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+M
+</TD>
+<TD>
+1530-1630
+</TD>
+<TD>
+LT7
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD>
+CZ4031
+</TD>
+<TD>
+DATABASE SYSTEM PRINCIPLES
+</TD>
+<TD>
+3
+</TD>
+<TD>
+PRESCRIBED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+10428
+</TD>
+<TD>
+REGISTERED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+TUT
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+TH
+</TD>
+<TD>
+0930-1030
+</TD>
+<TD>
+LT7
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+TH
+</TD>
+<TD>
+0830-0930
+</TD>
+<TD>
+LT7
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+T
+</TD>
+<TD>
+1330-1430
+</TD>
+<TD>
+LT7
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD>
+CZ4032
+</TD>
+<TD>
+DATA ANALYTICS AND MINING
+</TD>
+<TD>
+3
+</TD>
+<TD>
+PRESCRIBED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+10429
+</TD>
+<TD>
+REGISTERED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+TUT
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+W
+</TD>
+<TD>
+2030-2130
+</TD>
+<TD>
+LT19
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+W
+</TD>
+<TD>
+1830-1930
+</TD>
+<TD>
+LT19
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+W
+</TD>
+<TD>
+1930-2030
+</TD>
+<TD>
+LT19
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD>
+CZ4062
+</TD>
+<TD>
+COMPUTER SECURITY (SYSTEM SECURITY)
+</TD>
+<TD>
+3
+</TD>
+<TD>
+PRESCRIBED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+10432
+</TD>
+<TD>
+REGISTERED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+TUT
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+T
+</TD>
+<TD>
+1130-1230
+</TD>
+<TD>
+LT2A
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+T
+</TD>
+<TD>
+1030-1130
+</TD>
+<TD>
+LT2A
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+CS4
+</TD>
+<TD>
+F
+</TD>
+<TD>
+1330-1430
+</TD>
+<TD>
+LT19
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD>
+HW0310
+</TD>
+<TD>
+PROFESSIONAL COMMUNICATION
+</TD>
+<TD>
+2
+</TD>
+<TD>
+CORE
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+GER
+</TD>
+<TD>
+10495
+</TD>
+<TD>
+REGISTERED
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+TUT
+</TD>
+<TD>
+SCE5
+</TD>
+<TD>
+TH
+</TD>
+<TD>
+1330-1530
+</TD>
+<TD>
+TR+35
+</TD>
+<TD>
+Teaching Wk3,5,7,9,11,13
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+SCE
+</TD>
+<TD>
+T
+</TD>
+<TD>
+1430-1530
+</TD>
+<TD>
+LT19A
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+<TR>
+<TD>
+ES8001
+</TD>
+<TD>
+NATURAL HAZARDS AND SOCIETY
+</TD>
+<TD>
+3
+</TD>
+<TD>
+UNRESTRICTED ELECTIVE
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+&nbsp;
+</TD>
+<TD>
+73150
+</TD>
+<TD>
+WAITLIST
+</TD>
+<TD>
+1
+</TD>
+<TD>
+LEC/STUDIO
+</TD>
+<TD>
+LE
+</TD>
+<TD>
+W
+</TD>
+<TD>
+1330-1630
+</TD>
+<TD>
+LT2A
+</TD>
+<TD>
+Teaching Wk1-13
+</TD>
+</TR>
+</TABLE>
+<BR>
+TOTAL AU REGISTERED 
+<B>  14.0</B>
+<BR>
+<BR>
+<BR>
+<HR size=2>
+<FORM METHOD="POST">
+<div id=ui_footer_container>
+<p id=ui_footer_left> &copy; 2001-2015 Nanyang Technological University</p>
+<p id=ui_footer_right>
+<a class="ui_footer_container" href="javascript:history.back()" onmouseover="window.status='Previous page'; return true;" onmouseout="window.status='';return true;"  >Back</font></a>
+&nbsp;
+ | 
+<a class="ui_footer_container" href="javascript:self.close()" onmouseover="window.status='Exit and close window'; return true;" onmouseout="window.status='';return true;"  >Close</a>
+</p>
+</div>
+</div>
+</BODY></HTML>
