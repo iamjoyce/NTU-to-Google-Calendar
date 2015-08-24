@@ -1,30 +1,28 @@
 # NTU-to-Google-Calendar
 Automatically generates NTU timetable in Google Calendar
 
-This is an extremely simplified and draft version.
+Completed, but tiny details are not settled.
 
-
-
-**Currently, it :**
-- Saves all classes (e.g. Tutorial, Lecture) into one calendar
-- Supports even and odd weeks classes (e.g. Week 4,6,8,.. and Week 3,5,7,..)
+------------------------------------
+### Completed
+- Saves similar class types together (e.g. Tutorials into one calendar, Lectures into another)
+- Allows calendar names to be different from defaults
+- Allows creation of a calendar for week numbers only
+- Allows different dates to be selected
 - Removes classes in recess week
-- Allows modification to start term date and end term date
-  - These dates are currently set for [AY2015-2016](http://www.ntu.edu.sg/Students/Undergraduate/AcademicServices/AcademicCalendar/Pages/AY2015-16.aspx)
+- Retrieves details about the location from [NTU map](http://maps.ntu.edu.sg/maps)
 
-
-> :star2: **Very important thing to note** :star2:
->
-> After submitting the form, check your [Google Calendar](https://www.google.com/calendar/render?pli=1) if the events are already stored.
-> Submitting the form again will cause duplicates
+------------------------------------
+### Configuration
+- ./assets/classes/GoogleAuth.class.php
+    - AUTHCONFIGFILE: client_secret.json
+    - REDIRECT_DEV: where to redirect the user after authorisation attempt
+    - Refer to [Google Calendar API Documentation](https://developers.google.com/api-client-library/php/auth/web-app) for details
+- ./oauth2callback.php
+    - REDIRECT_AFTER_AUTH: where to redirect the user after *successful* authorisation
 
 ------------------------------------
 ### Todo
-- Validation and messages
-- Refine codes
-- Additional functionalities
-  - Get exact location from [NTU map](http://maps.ntu.edu.sg/maps)
-  - Get semester dates from [NTU academic calendar](http://www.ntu.edu.sg/Students/Undergraduate/AcademicServices/AcademicCalendar/Pages/)
-  - Display existing calendars
-  - Allow customisation
-    - Different types of classes (e.g. Tutorial, Lectures) can be saved into different calendars
+- Comments
+- Odd and even week classes after recess week is incorrect
+    - You must manually adjust the dates after recess week for odd and even week classes
